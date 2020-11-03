@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.App-display-warm {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("./beaches-of-fijis-blue-lagoon.jpg");
+    background-size: cover;
+    background-position: cover;
+}
+
+ .bodyCold {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("./weather.jpg");
+    background-size: cover;
+    background-position: cover;
+}
+
+
+.Search {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    align-self: center;
+    padding: 15px;
+    border-radius: 0px 0px 16px  16px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.50);
+}
+
+.Search input{
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 0px 16px 0px 16px;
+    background-color: rgba(255, 255, 255, 0.8);  
+    border-bottom: 5px solid rgba(0, 0, 0, 0.75);
+}
+
+.search input:focus{
+    background-color: rgba(255, 255, 255, 0.9); 
+}
+
+.Main {
+   padding: 25px 25px 50px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.City {
+    font-size: 50px;
+    text-shadow: 0px 6px 6px  rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+}
+
+.Date {
+    text-shadow:  0px 6px 6px  rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.weather {
+    font-size: 100px;
+    text-shadow: 4px 4px 0px  rgba(0, 0, 0, 0.50);
+    margin-top: 15px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+}
+
+.exactLocation {
+    font-size: 30px;
+    text-shadow: 4px 4px 0px  rgba(0, 0, 0, 0.50);
+    margin-top: 5px;
+    color: #ffffff;
+}
